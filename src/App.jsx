@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import {Todos} from './components/Todos';
-import {Footer} from './components/Footer';
 import { useState,useEffect } from 'react';
 
 function App() {
@@ -41,7 +40,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <Todos todos={todos} todoDelete={todoDelete} addTodo={addTodo}/>
-      <Footer/>
     </div>
   );
 }
